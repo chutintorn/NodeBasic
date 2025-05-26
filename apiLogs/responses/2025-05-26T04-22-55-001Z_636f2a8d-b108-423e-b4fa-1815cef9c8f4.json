@@ -1,26 +1,150 @@
 {
   "code": 200,
   "responseStatus": "Success",
-  "correlationId": "00694781-75e9-411c-b410-615f5eb9de3c",
-  "securityToken": "f8075oe04a280489p12b1c7a438bs8t7f3sau5cd7504",
-  "timestamp": "2025-05-18 11:28:55",
+  "correlationId": "636f2a8d-b108-423e-b4fa-1815cef9c8f4",
+  "securityToken": "a8644ebbl6pc15u9vbn064e15746a658bd6fb8c98e50",
+  "timestamp": "2025-05-26 11:22:54",
   "data": [
     {
       "origin": "DMK",
       "destination": "HKT",
-      "departureDate": "2025-06-07",
+      "departureDate": "2025-05-29",
       "journey": [
         {
-          "departureDate": "2025-06-07 08:35:00",
-          "arrivalDate": "2025-06-07 10:00:00",
+          "departureDate": "2025-05-29 06:35:00",
+          "arrivalDate": "2025-05-29 08:00:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 08:35:00",
+              "departureDate": "2025-05-29 06:35:00",
               "origin": "DMK",
               "destination": "HKT",
               "international": false,
-              "arrivalDate": "2025-06-07 10:00:00",
+              "arrivalDate": "2025-05-29 08:00:00",
+              "duration": "1h25m",
+              "flightNumber": "DD520",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "PHUKET INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "943.92",
+              "discount": "0.00",
+              "seatsAvailable": "14",
+              "fareKey": "DMKHKT20250529010000THB_12:URALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "943.92",
+                  "fareAmountIncludingTax": "1149.09",
+                  "fareBasisCode": "URALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "66.07",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "1411.22",
+              "discount": "0.00",
+              "seatsAvailable": "14",
+              "fareKey": "DMKHKT20250529010000THB_24:URAXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1411.22",
+                  "fareAmountIncludingTax": "1649.11",
+                  "fareBasisCode": "URAXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "98.79",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "1878.50",
+              "discount": "0.00",
+              "seatsAvailable": "14",
+              "fareKey": "DMKHKT20250529010000THB_36:URAMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1878.50",
+                  "fareAmountIncludingTax": "2149.10",
+                  "fareBasisCode": "URAMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "131.50",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "DMKHKT20250529010000THB_DD52020250529"
+        },
+        {
+          "departureDate": "2025-05-29 08:35:00",
+          "arrivalDate": "2025-05-29 10:00:00",
+          "international": false,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-29 08:35:00",
+              "origin": "DMK",
+              "destination": "HKT",
+              "international": false,
+              "arrivalDate": "2025-05-29 10:00:00",
               "duration": "1h25m",
               "flightNumber": "DD522",
               "aircraftDescription": "B737-800 (73810)",
@@ -36,7 +160,7 @@
               "fareAmount": "943.92",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_12:URALIT00",
+              "fareKey": "DMKHKT20250529010000THB_48:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -70,7 +194,7 @@
               "fareAmount": "1411.22",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_24:URAXTR00",
+              "fareKey": "DMKHKT20250529010000THB_60:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -104,7 +228,7 @@
               "fareAmount": "1878.50",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_36:URAMAX00",
+              "fareKey": "DMKHKT20250529010000THB_72:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -132,19 +256,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKHKT20250607010000THB_DD52220250607"
+          "journeyKey": "DMKHKT20250529010000THB_DD52220250529"
         },
         {
-          "departureDate": "2025-06-07 09:30:00",
-          "arrivalDate": "2025-06-07 10:55:00",
+          "departureDate": "2025-05-29 09:30:00",
+          "arrivalDate": "2025-05-29 10:55:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 09:30:00",
+              "departureDate": "2025-05-29 09:30:00",
               "origin": "DMK",
               "destination": "HKT",
               "international": false,
-              "arrivalDate": "2025-06-07 10:55:00",
+              "arrivalDate": "2025-05-29 10:55:00",
               "duration": "1h25m",
               "flightNumber": "DD524",
               "aircraftDescription": "B737-800 (73810)",
@@ -160,7 +284,7 @@
               "fareAmount": "943.92",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_48:URALIT00",
+              "fareKey": "DMKHKT20250529010000THB_84:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -194,7 +318,7 @@
               "fareAmount": "1411.22",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_60:URAXTR00",
+              "fareKey": "DMKHKT20250529010000THB_96:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -228,7 +352,7 @@
               "fareAmount": "1878.50",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_72:URAMAX00",
+              "fareKey": "DMKHKT20250529010000THB_108:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -256,19 +380,143 @@
               ]
             }
           ],
-          "journeyKey": "DMKHKT20250607010000THB_DD52420250607"
+          "journeyKey": "DMKHKT20250529010000THB_DD52420250529"
         },
         {
-          "departureDate": "2025-06-07 12:00:00",
-          "arrivalDate": "2025-06-07 13:30:00",
+          "departureDate": "2025-05-29 11:30:00",
+          "arrivalDate": "2025-05-29 12:30:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 12:00:00",
+              "departureDate": "2025-05-29 11:30:00",
               "origin": "DMK",
               "destination": "HKT",
               "international": false,
-              "arrivalDate": "2025-06-07 13:30:00",
+              "arrivalDate": "2025-05-29 12:30:00",
+              "duration": "1h0m",
+              "flightNumber": "DD3001",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "PHUKET INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "943.92",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250529010000THB_120:URALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "943.92",
+                  "fareAmountIncludingTax": "1149.09",
+                  "fareBasisCode": "URALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "66.07",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "1411.22",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250529010000THB_132:URAXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1411.22",
+                  "fareAmountIncludingTax": "1649.11",
+                  "fareBasisCode": "URAXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "98.79",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "1878.50",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250529010000THB_144:URAMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1878.50",
+                  "fareAmountIncludingTax": "2149.10",
+                  "fareBasisCode": "URAMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "131.50",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "DMKHKT20250529010000THB_DD300120250529"
+        },
+        {
+          "departureDate": "2025-05-29 12:00:00",
+          "arrivalDate": "2025-05-29 13:30:00",
+          "international": false,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-29 12:00:00",
+              "origin": "DMK",
+              "destination": "HKT",
+              "international": false,
+              "arrivalDate": "2025-05-29 13:30:00",
               "duration": "1h30m",
               "flightNumber": "DD4002",
               "aircraftDescription": "RADIXX TRAINING ",
@@ -284,7 +532,7 @@
               "fareAmount": "1120.56",
               "discount": "0.00",
               "seatsAvailable": "50",
-              "fareKey": "DMKHKT20250607010000THB_80:WRALIT00",
+              "fareKey": "DMKHKT20250529010000THB_152:WRALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -318,7 +566,7 @@
               "fareAmount": "1587.85",
               "discount": "0.00",
               "seatsAvailable": "50",
-              "fareKey": "DMKHKT20250607010000THB_88:WRAXTR00",
+              "fareKey": "DMKHKT20250529010000THB_160:WRAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -352,7 +600,7 @@
               "fareAmount": "2055.14",
               "discount": "0.00",
               "seatsAvailable": "50",
-              "fareKey": "DMKHKT20250607010000THB_96:WRAMAX00",
+              "fareKey": "DMKHKT20250529010000THB_168:WRAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -380,19 +628,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKHKT20250607010000THB_DD400220250607"
+          "journeyKey": "DMKHKT20250529010000THB_DD400220250529"
         },
         {
-          "departureDate": "2025-06-07 16:35:00",
-          "arrivalDate": "2025-06-07 18:10:00",
+          "departureDate": "2025-05-29 16:35:00",
+          "arrivalDate": "2025-05-29 18:10:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 16:35:00",
+              "departureDate": "2025-05-29 16:35:00",
               "origin": "DMK",
               "destination": "HKT",
               "international": false,
-              "arrivalDate": "2025-06-07 18:10:00",
+              "arrivalDate": "2025-05-29 18:10:00",
               "duration": "1h35m",
               "flightNumber": "DD532",
               "aircraftDescription": "B737-800 (73810)",
@@ -407,8 +655,8 @@
               "currency": "THB",
               "fareAmount": "943.92",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_108:URALIT00",
+              "seatsAvailable": "14",
+              "fareKey": "DMKHKT20250529010000THB_180:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -441,8 +689,8 @@
               "currency": "THB",
               "fareAmount": "1411.22",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_120:URAXTR00",
+              "seatsAvailable": "14",
+              "fareKey": "DMKHKT20250529010000THB_192:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -475,8 +723,8 @@
               "currency": "THB",
               "fareAmount": "1878.50",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_132:URAMAX00",
+              "seatsAvailable": "14",
+              "fareKey": "DMKHKT20250529010000THB_204:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -504,19 +752,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKHKT20250607010000THB_DD53220250607"
+          "journeyKey": "DMKHKT20250529010000THB_DD53220250529"
         },
         {
-          "departureDate": "2025-06-07 20:35:00",
-          "arrivalDate": "2025-06-07 21:55:00",
+          "departureDate": "2025-05-29 20:35:00",
+          "arrivalDate": "2025-05-29 21:55:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 20:35:00",
+              "departureDate": "2025-05-29 20:35:00",
               "origin": "DMK",
               "destination": "HKT",
               "international": false,
-              "arrivalDate": "2025-06-07 21:55:00",
+              "arrivalDate": "2025-05-29 21:55:00",
               "duration": "1h20m",
               "flightNumber": "DD536",
               "aircraftDescription": "B737-800 (73810)",
@@ -531,8 +779,8 @@
               "currency": "THB",
               "fareAmount": "943.92",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_144:URALIT00",
+              "seatsAvailable": "13",
+              "fareKey": "DMKHKT20250529010000THB_216:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -565,8 +813,8 @@
               "currency": "THB",
               "fareAmount": "1411.22",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_156:URAXTR00",
+              "seatsAvailable": "13",
+              "fareKey": "DMKHKT20250529010000THB_228:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -599,8 +847,8 @@
               "currency": "THB",
               "fareAmount": "1878.50",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKHKT20250607010000THB_168:URAMAX00",
+              "seatsAvailable": "13",
+              "fareKey": "DMKHKT20250529010000THB_240:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -628,7 +876,7 @@
               ]
             }
           ],
-          "journeyKey": "DMKHKT20250607010000THB_DD53620250607"
+          "journeyKey": "DMKHKT20250529010000THB_DD53620250529"
         }
       ]
     }

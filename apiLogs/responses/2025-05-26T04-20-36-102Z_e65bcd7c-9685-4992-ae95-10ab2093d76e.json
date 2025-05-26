@@ -1,26 +1,26 @@
 {
   "code": 200,
   "responseStatus": "Success",
-  "correlationId": "22b50f8f-1c30-4719-b3fe-9b06460d6182",
-  "securityToken": "bc2e205o99d294dbh029lfy040u360t958o0ued20b4e",
-  "timestamp": "2025-05-18 13:19:51",
+  "correlationId": "e65bcd7c-9685-4992-ae95-10ab2093d76e",
+  "securityToken": "86472y4f9bb0b3l4h392uet8n064d1o04e76f903a843",
+  "timestamp": "2025-05-26 11:20:35",
   "data": [
     {
       "origin": "DMK",
       "destination": "CNX",
-      "departureDate": "2025-06-07",
+      "departureDate": "2025-05-29",
       "journey": [
         {
-          "departureDate": "2025-06-07 00:01:00",
-          "arrivalDate": "2025-06-07 00:02:00",
+          "departureDate": "2025-05-29 00:01:00",
+          "arrivalDate": "2025-05-29 00:02:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 00:01:00",
+              "departureDate": "2025-05-29 00:01:00",
               "origin": "DMK",
               "destination": "CNX",
               "international": false,
-              "arrivalDate": "2025-06-07 00:02:00",
+              "arrivalDate": "2025-05-29 00:02:00",
               "duration": "0h1m",
               "flightNumber": "DD5740",
               "aircraftDescription": "test for NKT",
@@ -36,7 +36,7 @@
               "fareAmount": "1541.12",
               "discount": "0.00",
               "seatsAvailable": "70",
-              "fareKey": "DMKCNX20250607010000THB_6:PRALIT00",
+              "fareKey": "DMKCNX20250529010000THB_6:PRALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -70,7 +70,7 @@
               "fareAmount": "1896.26",
               "discount": "0.00",
               "seatsAvailable": "70",
-              "fareKey": "DMKCNX20250607010000THB_13:PRAXTR00",
+              "fareKey": "DMKCNX20250529010000THB_13:PRAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -104,7 +104,7 @@
               "fareAmount": "2148.60",
               "discount": "0.00",
               "seatsAvailable": "70",
-              "fareKey": "DMKCNX20250607010000THB_20:PRAMAX00",
+              "fareKey": "DMKCNX20250529010000THB_20:PRAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -138,7 +138,7 @@
               "fareAmount": "1588.79",
               "discount": "0.00",
               "seatsAvailable": "10",
-              "fareKey": "DMKCNX20250607010000THB_21:YNFLITDP",
+              "fareKey": "DMKCNX20250529010000THB_21:YNFLITDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -172,7 +172,7 @@
               "fareAmount": "1775.70",
               "discount": "0.00",
               "seatsAvailable": "10",
-              "fareKey": "DMKCNX20250607010000THB_23:YNFXTRDP",
+              "fareKey": "DMKCNX20250529010000THB_23:YNFXTRDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -206,7 +206,7 @@
               "fareAmount": "1869.16",
               "discount": "0.00",
               "seatsAvailable": "10",
-              "fareKey": "DMKCNX20250607010000THB_25:YNFMAXDP",
+              "fareKey": "DMKCNX20250529010000THB_25:YNFMAXDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -234,19 +234,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKCNX20250607010000THB_DD574020250607"
+          "journeyKey": "DMKCNX20250529010000THB_DD574020250529"
         },
         {
-          "departureDate": "2025-06-07 06:20:00",
-          "arrivalDate": "2025-06-07 07:25:00",
+          "departureDate": "2025-05-29 06:20:00",
+          "arrivalDate": "2025-05-29 07:25:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 06:20:00",
+              "departureDate": "2025-05-29 06:20:00",
               "origin": "DMK",
               "destination": "CNX",
               "international": false,
-              "arrivalDate": "2025-06-07 07:25:00",
+              "arrivalDate": "2025-05-29 07:25:00",
               "duration": "1h5m",
               "flightNumber": "DD124",
               "aircraftDescription": "B737-800 (73810)",
@@ -262,7 +262,7 @@
               "fareAmount": "886.92",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_36:URALIT00",
+              "fareKey": "DMKCNX20250529010000THB_36:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -296,7 +296,7 @@
               "fareAmount": "1242.06",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_48:URAXTR00",
+              "fareKey": "DMKCNX20250529010000THB_48:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -330,7 +330,7 @@
               "fareAmount": "1494.39",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_60:URAMAX00",
+              "fareKey": "DMKCNX20250529010000THB_60:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -364,7 +364,7 @@
               "fareAmount": "841.12",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_63:WNFLITDP",
+              "fareKey": "DMKCNX20250529010000THB_63:WNFLITDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -398,7 +398,7 @@
               "fareAmount": "1028.04",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_67:WNFXTRDP",
+              "fareKey": "DMKCNX20250529010000THB_67:WNFXTRDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -432,7 +432,7 @@
               "fareAmount": "1121.50",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_71:WNFMAXDP",
+              "fareKey": "DMKCNX20250529010000THB_71:WNFMAXDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -460,19 +460,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKCNX20250607010000THB_DD12420250607"
+          "journeyKey": "DMKCNX20250529010000THB_DD12420250529"
         },
         {
-          "departureDate": "2025-06-07 09:05:00",
-          "arrivalDate": "2025-06-07 10:15:00",
+          "departureDate": "2025-05-29 09:05:00",
+          "arrivalDate": "2025-05-29 10:15:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 09:05:00",
+              "departureDate": "2025-05-29 09:05:00",
               "origin": "DMK",
               "destination": "CNX",
               "international": false,
-              "arrivalDate": "2025-06-07 10:15:00",
+              "arrivalDate": "2025-05-29 10:15:00",
               "duration": "1h10m",
               "flightNumber": "DD126",
               "aircraftDescription": "B737-800 (73810)",
@@ -487,8 +487,8 @@
               "currency": "THB",
               "fareAmount": "886.92",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_82:URALIT00",
+              "seatsAvailable": "14",
+              "fareKey": "DMKCNX20250529010000THB_82:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -521,8 +521,8 @@
               "currency": "THB",
               "fareAmount": "1242.06",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_94:URAXTR00",
+              "seatsAvailable": "14",
+              "fareKey": "DMKCNX20250529010000THB_94:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -555,8 +555,8 @@
               "currency": "THB",
               "fareAmount": "1494.39",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_106:URAMAX00",
+              "seatsAvailable": "14",
+              "fareKey": "DMKCNX20250529010000THB_106:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -589,8 +589,8 @@
               "currency": "THB",
               "fareAmount": "841.12",
               "discount": "0.00",
-              "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_109:WNFLITDP",
+              "seatsAvailable": "29",
+              "fareKey": "DMKCNX20250529010000THB_109:WNFLITDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -623,8 +623,8 @@
               "currency": "THB",
               "fareAmount": "1028.04",
               "discount": "0.00",
-              "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_113:WNFXTRDP",
+              "seatsAvailable": "29",
+              "fareKey": "DMKCNX20250529010000THB_113:WNFXTRDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -657,8 +657,8 @@
               "currency": "THB",
               "fareAmount": "1121.50",
               "discount": "0.00",
-              "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_117:WNFMAXDP",
+              "seatsAvailable": "29",
+              "fareKey": "DMKCNX20250529010000THB_117:WNFMAXDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -686,19 +686,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKCNX20250607010000THB_DD12620250607"
+          "journeyKey": "DMKCNX20250529010000THB_DD12620250529"
         },
         {
-          "departureDate": "2025-06-07 09:45:00",
-          "arrivalDate": "2025-06-07 10:50:00",
+          "departureDate": "2025-05-29 09:45:00",
+          "arrivalDate": "2025-05-29 10:50:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 09:45:00",
+              "departureDate": "2025-05-29 09:45:00",
               "origin": "DMK",
               "destination": "CNX",
               "international": false,
-              "arrivalDate": "2025-06-07 10:50:00",
+              "arrivalDate": "2025-05-29 10:50:00",
               "duration": "1h5m",
               "flightNumber": "DD128",
               "aircraftDescription": "B737-800 (73810)",
@@ -714,7 +714,7 @@
               "fareAmount": "886.92",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_128:URALIT00",
+              "fareKey": "DMKCNX20250529010000THB_128:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -748,7 +748,7 @@
               "fareAmount": "1242.06",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_140:URAXTR00",
+              "fareKey": "DMKCNX20250529010000THB_140:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -782,7 +782,7 @@
               "fareAmount": "1494.39",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_152:URAMAX00",
+              "fareKey": "DMKCNX20250529010000THB_152:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -816,7 +816,7 @@
               "fareAmount": "841.12",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_155:WNFLITDP",
+              "fareKey": "DMKCNX20250529010000THB_155:WNFLITDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -850,7 +850,7 @@
               "fareAmount": "1028.04",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_159:WNFXTRDP",
+              "fareKey": "DMKCNX20250529010000THB_159:WNFXTRDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -884,7 +884,7 @@
               "fareAmount": "1121.50",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_163:WNFMAXDP",
+              "fareKey": "DMKCNX20250529010000THB_163:WNFMAXDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -912,245 +912,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKCNX20250607010000THB_DD12820250607"
+          "journeyKey": "DMKCNX20250529010000THB_DD12820250529"
         },
         {
-          "departureDate": "2025-06-07 12:45:00",
-          "arrivalDate": "2025-06-07 13:55:00",
+          "departureDate": "2025-05-29 13:45:00",
+          "arrivalDate": "2025-05-29 15:05:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 12:45:00",
+              "departureDate": "2025-05-29 13:45:00",
               "origin": "DMK",
               "destination": "CNX",
               "international": false,
-              "arrivalDate": "2025-06-07 13:55:00",
-              "duration": "1h10m",
-              "flightNumber": "DD132",
-              "aircraftDescription": "B737-800 (73810)",
-              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
-              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
-            }
-          ],
-          "fares": [
-            {
-              "productCode": "NF",
-              "productName": "NOK LITE",
-              "currency": "THB",
-              "fareAmount": "886.92",
-              "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_174:URALIT00",
-              "paxFareTaxBreakdown": [
-                {
-                  "paxTypeCode": "Adult",
-                  "fareAmount": "886.92",
-                  "fareAmountIncludingTax": "1088.10",
-                  "fareBasisCode": "URALIT00",
-                  "taxesAndFees": [
-                    {
-                      "amount": "62.08",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    },
-                    {
-                      "amount": "130.00",
-                      "taxCode": "AT",
-                      "taxName": "Airport Tax 130 THB for DOM"
-                    },
-                    {
-                      "amount": "9.10",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "productCode": "NB",
-              "productName": "NOK XTRA",
-              "currency": "THB",
-              "fareAmount": "1242.06",
-              "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_186:URAXTR00",
-              "paxFareTaxBreakdown": [
-                {
-                  "paxTypeCode": "Adult",
-                  "fareAmount": "1242.06",
-                  "fareAmountIncludingTax": "1468.10",
-                  "fareBasisCode": "URAXTR00",
-                  "taxesAndFees": [
-                    {
-                      "amount": "86.94",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    },
-                    {
-                      "amount": "130.00",
-                      "taxCode": "AT",
-                      "taxName": "Airport Tax 130 THB for DOM"
-                    },
-                    {
-                      "amount": "9.10",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "productCode": "NE",
-              "productName": "NOK MAX",
-              "currency": "THB",
-              "fareAmount": "1494.39",
-              "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_198:URAMAX00",
-              "paxFareTaxBreakdown": [
-                {
-                  "paxTypeCode": "Adult",
-                  "fareAmount": "1494.39",
-                  "fareAmountIncludingTax": "1738.10",
-                  "fareBasisCode": "URAMAX00",
-                  "taxesAndFees": [
-                    {
-                      "amount": "104.61",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    },
-                    {
-                      "amount": "130.00",
-                      "taxCode": "AT",
-                      "taxName": "Airport Tax 130 THB for DOM"
-                    },
-                    {
-                      "amount": "9.10",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "productCode": "",
-              "productName": "NFCLITE",
-              "currency": "THB",
-              "fareAmount": "841.12",
-              "discount": "0.00",
-              "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_201:WNFLITDP",
-              "paxFareTaxBreakdown": [
-                {
-                  "paxTypeCode": "Adult",
-                  "fareAmount": "841.12",
-                  "fareAmountIncludingTax": "1039.10",
-                  "fareBasisCode": "WNFLITDP",
-                  "taxesAndFees": [
-                    {
-                      "amount": "58.88",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    },
-                    {
-                      "amount": "130.00",
-                      "taxCode": "AT",
-                      "taxName": "Airport Tax 130 THB for DOM"
-                    },
-                    {
-                      "amount": "9.10",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "productCode": "",
-              "productName": "NFCXTRA",
-              "currency": "THB",
-              "fareAmount": "1028.04",
-              "discount": "0.00",
-              "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_205:WNFXTRDP",
-              "paxFareTaxBreakdown": [
-                {
-                  "paxTypeCode": "Adult",
-                  "fareAmount": "1028.04",
-                  "fareAmountIncludingTax": "1239.10",
-                  "fareBasisCode": "WNFXTRDP",
-                  "taxesAndFees": [
-                    {
-                      "amount": "71.96",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    },
-                    {
-                      "amount": "130.00",
-                      "taxCode": "AT",
-                      "taxName": "Airport Tax 130 THB for DOM"
-                    },
-                    {
-                      "amount": "9.10",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "productCode": "",
-              "productName": "NFCMAX",
-              "currency": "THB",
-              "fareAmount": "1121.50",
-              "discount": "0.00",
-              "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_209:WNFMAXDP",
-              "paxFareTaxBreakdown": [
-                {
-                  "paxTypeCode": "Adult",
-                  "fareAmount": "1121.50",
-                  "fareAmountIncludingTax": "1339.10",
-                  "fareBasisCode": "WNFMAXDP",
-                  "taxesAndFees": [
-                    {
-                      "amount": "78.50",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    },
-                    {
-                      "amount": "130.00",
-                      "taxCode": "AT",
-                      "taxName": "Airport Tax 130 THB for DOM"
-                    },
-                    {
-                      "amount": "9.10",
-                      "taxCode": "VAT",
-                      "taxName": "VAT"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "journeyKey": "DMKCNX20250607010000THB_DD13220250607"
-        },
-        {
-          "departureDate": "2025-06-07 13:45:00",
-          "arrivalDate": "2025-06-07 15:05:00",
-          "international": false,
-          "travelInfos": [
-            {
-              "departureDate": "2025-06-07 13:45:00",
-              "origin": "DMK",
-              "destination": "CNX",
-              "international": false,
-              "arrivalDate": "2025-06-07 15:05:00",
+              "arrivalDate": "2025-05-29 15:05:00",
               "duration": "1h20m",
               "flightNumber": "DD134",
               "aircraftDescription": "B737-800 (73810)",
@@ -1166,7 +940,7 @@
               "fareAmount": "886.92",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_220:URALIT00",
+              "fareKey": "DMKCNX20250529010000THB_174:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1200,7 +974,7 @@
               "fareAmount": "1242.06",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_232:URAXTR00",
+              "fareKey": "DMKCNX20250529010000THB_186:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1234,7 +1008,7 @@
               "fareAmount": "1494.39",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_244:URAMAX00",
+              "fareKey": "DMKCNX20250529010000THB_198:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1268,7 +1042,7 @@
               "fareAmount": "841.12",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_247:WNFLITDP",
+              "fareKey": "DMKCNX20250529010000THB_201:WNFLITDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1302,7 +1076,7 @@
               "fareAmount": "1028.04",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_251:WNFXTRDP",
+              "fareKey": "DMKCNX20250529010000THB_205:WNFXTRDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1336,7 +1110,7 @@
               "fareAmount": "1121.50",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_255:WNFMAXDP",
+              "fareKey": "DMKCNX20250529010000THB_209:WNFMAXDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1364,19 +1138,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKCNX20250607010000THB_DD13420250607"
+          "journeyKey": "DMKCNX20250529010000THB_DD13420250529"
         },
         {
-          "departureDate": "2025-06-07 17:10:00",
-          "arrivalDate": "2025-06-07 18:15:00",
+          "departureDate": "2025-05-29 17:10:00",
+          "arrivalDate": "2025-05-29 18:15:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 17:10:00",
+              "departureDate": "2025-05-29 17:10:00",
               "origin": "DMK",
               "destination": "CNX",
               "international": false,
-              "arrivalDate": "2025-06-07 18:15:00",
+              "arrivalDate": "2025-05-29 18:15:00",
               "duration": "1h5m",
               "flightNumber": "DD136",
               "aircraftDescription": "B737-800 (73810)",
@@ -1392,7 +1166,7 @@
               "fareAmount": "886.92",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_266:URALIT00",
+              "fareKey": "DMKCNX20250529010000THB_220:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1426,7 +1200,7 @@
               "fareAmount": "1242.06",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_278:URAXTR00",
+              "fareKey": "DMKCNX20250529010000THB_232:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1460,7 +1234,7 @@
               "fareAmount": "1494.39",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_290:URAMAX00",
+              "fareKey": "DMKCNX20250529010000THB_244:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1494,7 +1268,7 @@
               "fareAmount": "841.12",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_293:WNFLITDP",
+              "fareKey": "DMKCNX20250529010000THB_247:WNFLITDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1528,7 +1302,7 @@
               "fareAmount": "1028.04",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_297:WNFXTRDP",
+              "fareKey": "DMKCNX20250529010000THB_251:WNFXTRDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1562,7 +1336,7 @@
               "fareAmount": "1121.50",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_301:WNFMAXDP",
+              "fareKey": "DMKCNX20250529010000THB_255:WNFMAXDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1590,19 +1364,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKCNX20250607010000THB_DD13620250607"
+          "journeyKey": "DMKCNX20250529010000THB_DD13620250529"
         },
         {
-          "departureDate": "2025-06-07 20:30:00",
-          "arrivalDate": "2025-06-07 21:40:00",
+          "departureDate": "2025-05-29 20:30:00",
+          "arrivalDate": "2025-05-29 21:40:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 20:30:00",
+              "departureDate": "2025-05-29 20:30:00",
               "origin": "DMK",
               "destination": "CNX",
               "international": false,
-              "arrivalDate": "2025-06-07 21:40:00",
+              "arrivalDate": "2025-05-29 21:40:00",
               "duration": "1h10m",
               "flightNumber": "DD140",
               "aircraftDescription": "B737-800 (73810)",
@@ -1618,7 +1392,7 @@
               "fareAmount": "886.92",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_312:URALIT00",
+              "fareKey": "DMKCNX20250529010000THB_266:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1652,7 +1426,7 @@
               "fareAmount": "1242.06",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_324:URAXTR00",
+              "fareKey": "DMKCNX20250529010000THB_278:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1686,7 +1460,7 @@
               "fareAmount": "1494.39",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_336:URAMAX00",
+              "fareKey": "DMKCNX20250529010000THB_290:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1720,7 +1494,7 @@
               "fareAmount": "841.12",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_339:WNFLITDP",
+              "fareKey": "DMKCNX20250529010000THB_293:WNFLITDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1754,7 +1528,7 @@
               "fareAmount": "1028.04",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_343:WNFXTRDP",
+              "fareKey": "DMKCNX20250529010000THB_297:WNFXTRDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1788,7 +1562,7 @@
               "fareAmount": "1121.50",
               "discount": "0.00",
               "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_347:WNFMAXDP",
+              "fareKey": "DMKCNX20250529010000THB_301:WNFMAXDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1816,19 +1590,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKCNX20250607010000THB_DD14020250607"
+          "journeyKey": "DMKCNX20250529010000THB_DD14020250529"
         },
         {
-          "departureDate": "2025-06-07 21:20:00",
-          "arrivalDate": "2025-06-07 22:30:00",
+          "departureDate": "2025-05-29 21:20:00",
+          "arrivalDate": "2025-05-29 22:30:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-07 21:20:00",
+              "departureDate": "2025-05-29 21:20:00",
               "origin": "DMK",
               "destination": "CNX",
               "international": false,
-              "arrivalDate": "2025-06-07 22:30:00",
+              "arrivalDate": "2025-05-29 22:30:00",
               "duration": "1h10m",
               "flightNumber": "DD142",
               "aircraftDescription": "B737-800 (73810)",
@@ -1843,8 +1617,8 @@
               "currency": "THB",
               "fareAmount": "886.92",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_358:URALIT00",
+              "seatsAvailable": "13",
+              "fareKey": "DMKCNX20250529010000THB_312:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1877,8 +1651,8 @@
               "currency": "THB",
               "fareAmount": "1242.06",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_370:URAXTR00",
+              "seatsAvailable": "13",
+              "fareKey": "DMKCNX20250529010000THB_324:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1911,8 +1685,8 @@
               "currency": "THB",
               "fareAmount": "1494.39",
               "discount": "0.00",
-              "seatsAvailable": "15",
-              "fareKey": "DMKCNX20250607010000THB_382:URAMAX00",
+              "seatsAvailable": "13",
+              "fareKey": "DMKCNX20250529010000THB_336:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1945,8 +1719,8 @@
               "currency": "THB",
               "fareAmount": "841.12",
               "discount": "0.00",
-              "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_385:WNFLITDP",
+              "seatsAvailable": "28",
+              "fareKey": "DMKCNX20250529010000THB_339:WNFLITDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -1979,8 +1753,8 @@
               "currency": "THB",
               "fareAmount": "1028.04",
               "discount": "0.00",
-              "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_389:WNFXTRDP",
+              "seatsAvailable": "28",
+              "fareKey": "DMKCNX20250529010000THB_343:WNFXTRDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -2013,8 +1787,8 @@
               "currency": "THB",
               "fareAmount": "1121.50",
               "discount": "0.00",
-              "seatsAvailable": "30",
-              "fareKey": "DMKCNX20250607010000THB_393:WNFMAXDP",
+              "seatsAvailable": "28",
+              "fareKey": "DMKCNX20250529010000THB_347:WNFMAXDP",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -2042,7 +1816,7 @@
               ]
             }
           ],
-          "journeyKey": "DMKCNX20250607010000THB_DD14220250607"
+          "journeyKey": "DMKCNX20250529010000THB_DD14220250529"
         }
       ]
     }

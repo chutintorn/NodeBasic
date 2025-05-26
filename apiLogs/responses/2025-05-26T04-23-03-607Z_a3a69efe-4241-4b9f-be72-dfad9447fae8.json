@@ -1,26 +1,26 @@
 {
   "code": 200,
   "responseStatus": "Success",
-  "correlationId": "3ca1f357-b261-4a3e-8af3-7631b12737f4",
-  "securityToken": "8e555laccdq3548fb44eud54tb4fd9u0d3d99c5d48d0",
-  "timestamp": "2025-05-25 12:18:12",
+  "correlationId": "a3a69efe-4241-4b9f-be72-dfad9447fae8",
+  "securityToken": "0a142y48693fbdl4y6u1u7pb9b61edkd4edeb45d39d5",
+  "timestamp": "2025-05-26 11:23:03",
   "data": [
     {
       "origin": "DMK",
       "destination": "KBV",
-      "departureDate": "2025-06-01",
+      "departureDate": "2025-05-29",
       "journey": [
         {
-          "departureDate": "2025-06-01 08:10:00",
-          "arrivalDate": "2025-06-01 09:05:00",
+          "departureDate": "2025-05-29 08:10:00",
+          "arrivalDate": "2025-05-29 09:05:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-01 08:10:00",
+              "departureDate": "2025-05-29 08:10:00",
               "origin": "DMK",
               "destination": "KBV",
               "international": false,
-              "arrivalDate": "2025-06-01 09:05:00",
+              "arrivalDate": "2025-05-29 09:05:00",
               "duration": "0h55m",
               "flightNumber": "DD4016",
               "aircraftDescription": "RADIXX Training 2025",
@@ -36,7 +36,7 @@
               "fareAmount": "20840.40",
               "discount": "0.00",
               "seatsAvailable": "150",
-              "fareKey": "DMKKBV20250601010000THB_6:WRALIT00",
+              "fareKey": "DMKKBV20250529010000THB_6:WRALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -70,7 +70,7 @@
               "fareAmount": "21190.90",
               "discount": "0.00",
               "seatsAvailable": "150",
-              "fareKey": "DMKKBV20250601010000THB_12:WRAXTR00",
+              "fareKey": "DMKKBV20250529010000THB_12:WRAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -104,7 +104,7 @@
               "fareAmount": "21541.40",
               "discount": "0.00",
               "seatsAvailable": "150",
-              "fareKey": "DMKKBV20250601010000THB_18:WRAMAX00",
+              "fareKey": "DMKKBV20250529010000THB_18:WRAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -132,19 +132,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKKBV20250601010000THB_DD401620250601"
+          "journeyKey": "DMKKBV20250529010000THB_DD401620250529"
         },
         {
-          "departureDate": "2025-06-01 09:40:00",
-          "arrivalDate": "2025-06-01 11:10:00",
+          "departureDate": "2025-05-29 09:40:00",
+          "arrivalDate": "2025-05-29 11:10:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-01 09:40:00",
+              "departureDate": "2025-05-29 09:40:00",
               "origin": "DMK",
               "destination": "KBV",
               "international": false,
-              "arrivalDate": "2025-06-01 11:10:00",
+              "arrivalDate": "2025-05-29 11:10:00",
               "duration": "1h30m",
               "flightNumber": "DD542",
               "aircraftDescription": "B737-800 (73810)",
@@ -160,7 +160,7 @@
               "fareAmount": "20707.90",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKKBV20250601010000THB_28:URALIT00",
+              "fareKey": "DMKKBV20250529010000THB_28:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -194,7 +194,7 @@
               "fareAmount": "21058.40",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKKBV20250601010000THB_40:URAXTR00",
+              "fareKey": "DMKKBV20250529010000THB_40:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -228,7 +228,7 @@
               "fareAmount": "21408.90",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKKBV20250601010000THB_52:URAMAX00",
+              "fareKey": "DMKKBV20250529010000THB_52:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -256,19 +256,19 @@
               ]
             }
           ],
-          "journeyKey": "DMKKBV20250601010000THB_DD54220250601"
+          "journeyKey": "DMKKBV20250529010000THB_DD54220250529"
         },
         {
-          "departureDate": "2025-06-01 16:50:00",
-          "arrivalDate": "2025-06-01 18:10:00",
+          "departureDate": "2025-05-29 16:50:00",
+          "arrivalDate": "2025-05-29 18:10:00",
           "international": false,
           "travelInfos": [
             {
-              "departureDate": "2025-06-01 16:50:00",
+              "departureDate": "2025-05-29 16:50:00",
               "origin": "DMK",
               "destination": "KBV",
               "international": false,
-              "arrivalDate": "2025-06-01 18:10:00",
+              "arrivalDate": "2025-05-29 18:10:00",
               "duration": "1h20m",
               "flightNumber": "DD546",
               "aircraftDescription": "B737-800 (73810)",
@@ -284,7 +284,7 @@
               "fareAmount": "20707.90",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKKBV20250601010000THB_62:URALIT00",
+              "fareKey": "DMKKBV20250529010000THB_62:URALIT00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -318,7 +318,7 @@
               "fareAmount": "21058.40",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKKBV20250601010000THB_74:URAXTR00",
+              "fareKey": "DMKKBV20250529010000THB_74:URAXTR00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -352,7 +352,7 @@
               "fareAmount": "21408.90",
               "discount": "0.00",
               "seatsAvailable": "15",
-              "fareKey": "DMKKBV20250601010000THB_86:URAMAX00",
+              "fareKey": "DMKKBV20250529010000THB_86:URAMAX00",
               "paxFareTaxBreakdown": [
                 {
                   "paxTypeCode": "Adult",
@@ -380,7 +380,7 @@
               ]
             }
           ],
-          "journeyKey": "DMKKBV20250601010000THB_DD54620250601"
+          "journeyKey": "DMKKBV20250529010000THB_DD54620250529"
         }
       ]
     }
