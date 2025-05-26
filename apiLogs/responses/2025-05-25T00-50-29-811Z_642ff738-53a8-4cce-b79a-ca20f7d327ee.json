@@ -1,0 +1,636 @@
+{
+  "code": 200,
+  "responseStatus": "Success",
+  "correlationId": "642ff738-53a8-4cce-b79a-ca20f7d327ee",
+  "securityToken": "api7b4v21auaqen964c5434b44dab81f00c094764368",
+  "timestamp": "2025-05-25 07:50:31",
+  "data": [
+    {
+      "origin": "DMK",
+      "destination": "HKT",
+      "departureDate": "2025-06-07",
+      "journey": [
+        {
+          "departureDate": "2025-06-07 08:35:00",
+          "arrivalDate": "2025-06-07 10:00:00",
+          "international": false,
+          "travelInfos": [
+            {
+              "departureDate": "2025-06-07 08:35:00",
+              "origin": "DMK",
+              "destination": "HKT",
+              "international": false,
+              "arrivalDate": "2025-06-07 10:00:00",
+              "duration": "1h25m",
+              "flightNumber": "DD522",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "PHUKET INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "943.92",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_12:URALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "943.92",
+                  "fareAmountIncludingTax": "1149.09",
+                  "fareBasisCode": "URALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "66.07",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "1411.22",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_24:URAXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1411.22",
+                  "fareAmountIncludingTax": "1649.11",
+                  "fareBasisCode": "URAXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "98.79",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "1878.50",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_36:URAMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1878.50",
+                  "fareAmountIncludingTax": "2149.10",
+                  "fareBasisCode": "URAMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "131.50",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "DMKHKT20250607010000THB_DD52220250607"
+        },
+        {
+          "departureDate": "2025-06-07 09:30:00",
+          "arrivalDate": "2025-06-07 10:55:00",
+          "international": false,
+          "travelInfos": [
+            {
+              "departureDate": "2025-06-07 09:30:00",
+              "origin": "DMK",
+              "destination": "HKT",
+              "international": false,
+              "arrivalDate": "2025-06-07 10:55:00",
+              "duration": "1h25m",
+              "flightNumber": "DD524",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "PHUKET INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "943.92",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_48:URALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "943.92",
+                  "fareAmountIncludingTax": "1149.09",
+                  "fareBasisCode": "URALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "66.07",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "1411.22",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_60:URAXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1411.22",
+                  "fareAmountIncludingTax": "1649.11",
+                  "fareBasisCode": "URAXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "98.79",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "1878.50",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_72:URAMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1878.50",
+                  "fareAmountIncludingTax": "2149.10",
+                  "fareBasisCode": "URAMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "131.50",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "DMKHKT20250607010000THB_DD52420250607"
+        },
+        {
+          "departureDate": "2025-06-07 12:00:00",
+          "arrivalDate": "2025-06-07 13:30:00",
+          "international": false,
+          "travelInfos": [
+            {
+              "departureDate": "2025-06-07 12:00:00",
+              "origin": "DMK",
+              "destination": "HKT",
+              "international": false,
+              "arrivalDate": "2025-06-07 13:30:00",
+              "duration": "1h30m",
+              "flightNumber": "DD4002",
+              "aircraftDescription": "RADIXX TRAINING ",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "PHUKET INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "1120.56",
+              "discount": "0.00",
+              "seatsAvailable": "50",
+              "fareKey": "DMKHKT20250607010000THB_80:WRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1120.56",
+                  "fareAmountIncludingTax": "1338.10",
+                  "fareBasisCode": "WRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "78.44",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "1587.85",
+              "discount": "0.00",
+              "seatsAvailable": "50",
+              "fareKey": "DMKHKT20250607010000THB_88:WRAXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1587.85",
+                  "fareAmountIncludingTax": "1838.10",
+                  "fareBasisCode": "WRAXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "111.15",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "2055.14",
+              "discount": "0.00",
+              "seatsAvailable": "50",
+              "fareKey": "DMKHKT20250607010000THB_96:WRAMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2055.14",
+                  "fareAmountIncludingTax": "2338.10",
+                  "fareBasisCode": "WRAMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "143.86",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "DMKHKT20250607010000THB_DD400220250607"
+        },
+        {
+          "departureDate": "2025-06-07 16:35:00",
+          "arrivalDate": "2025-06-07 18:10:00",
+          "international": false,
+          "travelInfos": [
+            {
+              "departureDate": "2025-06-07 16:35:00",
+              "origin": "DMK",
+              "destination": "HKT",
+              "international": false,
+              "arrivalDate": "2025-06-07 18:10:00",
+              "duration": "1h35m",
+              "flightNumber": "DD532",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "PHUKET INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "943.92",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_108:URALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "943.92",
+                  "fareAmountIncludingTax": "1149.09",
+                  "fareBasisCode": "URALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "66.07",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "1411.22",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_120:URAXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1411.22",
+                  "fareAmountIncludingTax": "1649.11",
+                  "fareBasisCode": "URAXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "98.79",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "1878.50",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_132:URAMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1878.50",
+                  "fareAmountIncludingTax": "2149.10",
+                  "fareBasisCode": "URAMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "131.50",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "DMKHKT20250607010000THB_DD53220250607"
+        },
+        {
+          "departureDate": "2025-06-07 20:35:00",
+          "arrivalDate": "2025-06-07 21:55:00",
+          "international": false,
+          "travelInfos": [
+            {
+              "departureDate": "2025-06-07 20:35:00",
+              "origin": "DMK",
+              "destination": "HKT",
+              "international": false,
+              "arrivalDate": "2025-06-07 21:55:00",
+              "duration": "1h20m",
+              "flightNumber": "DD536",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "PHUKET INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "943.92",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_144:URALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "943.92",
+                  "fareAmountIncludingTax": "1149.09",
+                  "fareBasisCode": "URALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "66.07",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "1411.22",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_156:URAXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1411.22",
+                  "fareAmountIncludingTax": "1649.11",
+                  "fareBasisCode": "URAXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "98.79",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "1878.50",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKHKT20250607010000THB_168:URAMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "1878.50",
+                  "fareAmountIncludingTax": "2149.10",
+                  "fareBasisCode": "URAMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "131.50",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for DOM"
+                    },
+                    {
+                      "amount": "9.10",
+                      "taxCode": "VAT",
+                      "taxName": "VAT"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "DMKHKT20250607010000THB_DD53620250607"
+        }
+      ]
+    }
+  ]
+}

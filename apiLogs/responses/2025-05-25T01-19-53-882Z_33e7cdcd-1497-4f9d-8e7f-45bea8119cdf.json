@@ -1,0 +1,236 @@
+{
+  "code": 200,
+  "responseStatus": "Success",
+  "correlationId": "33e7cdcd-1497-4f9d-8e7f-45bea8119cdf",
+  "securityToken": "3pf4b4jcy3ucr8a768i1j54c4595bc5b9dc19ca24be7",
+  "timestamp": "2025-05-25 08:19:55",
+  "data": [
+    {
+      "origin": "BOM",
+      "destination": "DMK",
+      "departureDate": "2025-06-07",
+      "journey": [
+        {
+          "departureDate": "2025-06-07 02:05:00",
+          "arrivalDate": "2025-06-07 07:45:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-06-07 02:05:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-06-07 07:45:00",
+              "duration": "4h10m",
+              "flightNumber": "DD939",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "3083.29",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "BOMDMK20250607010000THB_23:URNXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "3083.29",
+                  "fareAmountIncludingTax": "4353.21",
+                  "fareBasisCode": "URNXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "102.46",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "102.46",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "3388.05",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "BOMDMK20250607010000THB_46:URNMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "3388.05",
+                  "fareAmountIncludingTax": "4673.21",
+                  "fareBasisCode": "URNMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "110.08",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "110.08",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMDMK20250607010000THB_DD93920250607"
+        },
+        {
+          "departureDate": "2025-06-07 02:30:00",
+          "arrivalDate": "2025-06-07 08:35:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-06-07 02:30:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-06-07 08:35:00",
+              "duration": "4h35m",
+              "flightNumber": "DD4003",
+              "aircraftDescription": "RADIXX TRAINING ",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "3559.48",
+              "discount": "0.00",
+              "seatsAvailable": "50",
+              "fareKey": "BOMDMK20250607010000THB_62:WRNXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "3559.48",
+                  "fareAmountIncludingTax": "4853.20",
+                  "fareBasisCode": "WRNXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "114.36",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "114.36",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "3864.24",
+              "discount": "0.00",
+              "seatsAvailable": "50",
+              "fareKey": "BOMDMK20250607010000THB_77:WRNMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "3864.24",
+                  "fareAmountIncludingTax": "5173.20",
+                  "fareBasisCode": "WRNMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "121.98",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "121.98",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMDMK20250607010000THB_DD400320250607"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "code": 200,
+  "responseStatus": "Success",
+  "correlationId": "e5b7141d-66e0-443e-ab05-6ba3993bc4ff",
+  "securityToken": "8akc89q4ldubup6f62pa0a4b43b4b2a223f48f8c7612",
+  "timestamp": "2025-05-18 20:14:43",
+  "data": [
+    {
+      "origin": "DMK",
+      "destination": "BOM",
+      "departureDate": "2025-06-06",
+      "journey": [
+        {
+          "departureDate": "2025-06-06 22:05:00",
+          "arrivalDate": "2025-06-07 01:05:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-06-06 22:05:00",
+              "origin": "DMK",
+              "destination": "BOM",
+              "international": true,
+              "arrivalDate": "2025-06-07 01:05:00",
+              "duration": "4h30m",
+              "flightNumber": "DD938",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "3390.00",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKBOM20250606010000THB_12:URNXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "3390.00",
+                  "fareAmountIncludingTax": "4585.00",
+                  "fareBasisCode": "URNXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "2942.99",
+              "discount": "0.00",
+              "seatsAvailable": "140",
+              "fareKey": "DMKBOM20250606010000THB_17:BRAMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2942.99",
+                  "fareAmountIncludingTax": "4137.99",
+                  "fareBasisCode": "BRAMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "DMKBOM20250606010000THB_DD93820250606"
+        }
+      ]
+    }
+  ]
+}

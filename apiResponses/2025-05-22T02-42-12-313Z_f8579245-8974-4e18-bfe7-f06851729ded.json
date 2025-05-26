@@ -1,0 +1,1528 @@
+{
+  "code": 200,
+  "responseStatus": "Success",
+  "correlationId": "f8579245-8974-4e18-bfe7-f06851729ded",
+  "securityToken": "092585a4cd77e4kb4716q84ew3d5t8v8a2ue0424da61",
+  "timestamp": "2025-05-22 09:42:12",
+  "data": [
+    {
+      "origin": "BOM",
+      "destination": "CNX",
+      "departureDate": "2025-05-31",
+      "journey": [
+        {
+          "departureDate": "2025-05-31 02:05:00",
+          "arrivalDate": "2025-05-31 10:50:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 02:05:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-05-31 07:45:00",
+              "duration": "4h10m",
+              "flightNumber": "DD939",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            },
+            {
+              "departureDate": "2025-05-31 09:45:00",
+              "origin": "DMK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-05-31 10:50:00",
+              "duration": "1h5m",
+              "flightNumber": "DD128",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "118",
+              "fareKey": "BOMCNX20250531010000THB_2:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "3801.78",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "13810.00",
+              "discount": "0.00",
+              "seatsAvailable": "187",
+              "fareKey": "BOMCNX20250531010000THB_3:YRNMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "13810.00",
+                  "fareAmountIncludingTax": "16046.24",
+                  "fareBasisCode": "YRNMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD939/12820250531"
+        },
+        {
+          "departureDate": "2025-05-31 02:05:00",
+          "arrivalDate": "2025-05-31 13:50:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 02:05:00",
+              "origin": "BOM",
+              "destination": "BKK",
+              "international": true,
+              "arrivalDate": "2025-05-31 07:45:00",
+              "duration": "4h10m",
+              "flightNumber": "DD9999",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "Suvarnabhumi International"
+            },
+            {
+              "departureDate": "2025-05-31 12:35:00",
+              "origin": "BKK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-05-31 13:50:00",
+              "duration": "1h15m",
+              "flightNumber": "DD886",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "Suvarnabhumi International",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "120",
+              "fareKey": "BOMCNX20250531010000THB_5:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "2628.60",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "13810.00",
+              "discount": "0.00",
+              "seatsAvailable": "189",
+              "fareKey": "BOMCNX20250531010000THB_6:YRNMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "13810.00",
+                  "fareAmountIncludingTax": "14290.00",
+                  "fareBasisCode": "YRNMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD9999/88620250531"
+        },
+        {
+          "departureDate": "2025-05-31 02:05:00",
+          "arrivalDate": "2025-05-31 13:55:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 02:05:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-05-31 07:45:00",
+              "duration": "4h10m",
+              "flightNumber": "DD939",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            },
+            {
+              "departureDate": "2025-05-31 12:45:00",
+              "origin": "DMK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-05-31 13:55:00",
+              "duration": "1h10m",
+              "flightNumber": "DD132",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "118",
+              "fareKey": "BOMCNX20250531010000THB_8:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "3801.78",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "13810.00",
+              "discount": "0.00",
+              "seatsAvailable": "187",
+              "fareKey": "BOMCNX20250531010000THB_9:YRNMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "13810.00",
+                  "fareAmountIncludingTax": "16046.24",
+                  "fareBasisCode": "YRNMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD939/13220250531"
+        },
+        {
+          "departureDate": "2025-05-31 02:05:00",
+          "arrivalDate": "2025-05-31 15:05:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 02:05:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-05-31 07:45:00",
+              "duration": "4h10m",
+              "flightNumber": "DD939",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            },
+            {
+              "departureDate": "2025-05-31 13:45:00",
+              "origin": "DMK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-05-31 15:05:00",
+              "duration": "1h20m",
+              "flightNumber": "DD134",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "120",
+              "fareKey": "BOMCNX20250531010000THB_11:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "3801.78",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "13810.00",
+              "discount": "0.00",
+              "seatsAvailable": "189",
+              "fareKey": "BOMCNX20250531010000THB_12:YRNMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "13810.00",
+                  "fareAmountIncludingTax": "16046.24",
+                  "fareBasisCode": "YRNMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD939/13420250531"
+        },
+        {
+          "departureDate": "2025-05-31 02:05:00",
+          "arrivalDate": "2025-05-31 18:15:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 02:05:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-05-31 07:45:00",
+              "duration": "4h10m",
+              "flightNumber": "DD939",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            },
+            {
+              "departureDate": "2025-05-31 17:10:00",
+              "origin": "DMK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-05-31 18:15:00",
+              "duration": "1h5m",
+              "flightNumber": "DD136",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "120",
+              "fareKey": "BOMCNX20250531010000THB_14:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "3801.78",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "13810.00",
+              "discount": "0.00",
+              "seatsAvailable": "189",
+              "fareKey": "BOMCNX20250531010000THB_15:YRNMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "13810.00",
+                  "fareAmountIncludingTax": "16046.24",
+                  "fareBasisCode": "YRNMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD939/13620250531"
+        },
+        {
+          "departureDate": "2025-05-31 02:30:00",
+          "arrivalDate": "2025-05-31 13:55:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 02:30:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-05-31 08:35:00",
+              "duration": "4h35m",
+              "flightNumber": "DD4003",
+              "aircraftDescription": "RADIXX TRAINING ",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            },
+            {
+              "departureDate": "2025-05-31 12:45:00",
+              "origin": "DMK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-05-31 13:55:00",
+              "duration": "1h10m",
+              "flightNumber": "DD132",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "28",
+              "fareKey": "BOMCNX20250531010000THB_17:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "3801.78",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "13810.00",
+              "discount": "0.00",
+              "seatsAvailable": "28",
+              "fareKey": "BOMCNX20250531010000THB_18:YRNMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "13810.00",
+                  "fareAmountIncludingTax": "16046.24",
+                  "fareBasisCode": "YRNMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD4003/13220250531"
+        },
+        {
+          "departureDate": "2025-05-31 02:30:00",
+          "arrivalDate": "2025-05-31 15:05:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 02:30:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-05-31 08:35:00",
+              "duration": "4h35m",
+              "flightNumber": "DD4003",
+              "aircraftDescription": "RADIXX TRAINING ",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            },
+            {
+              "departureDate": "2025-05-31 13:45:00",
+              "origin": "DMK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-05-31 15:05:00",
+              "duration": "1h20m",
+              "flightNumber": "DD134",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "30",
+              "fareKey": "BOMCNX20250531010000THB_20:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "3801.78",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "13810.00",
+              "discount": "0.00",
+              "seatsAvailable": "30",
+              "fareKey": "BOMCNX20250531010000THB_21:YRNMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "13810.00",
+                  "fareAmountIncludingTax": "16046.24",
+                  "fareBasisCode": "YRNMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD4003/13420250531"
+        },
+        {
+          "departureDate": "2025-05-31 02:30:00",
+          "arrivalDate": "2025-05-31 18:15:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 02:30:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-05-31 08:35:00",
+              "duration": "4h35m",
+              "flightNumber": "DD4003",
+              "aircraftDescription": "RADIXX TRAINING ",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            },
+            {
+              "departureDate": "2025-05-31 17:10:00",
+              "origin": "DMK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-05-31 18:15:00",
+              "duration": "1h5m",
+              "flightNumber": "DD136",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "30",
+              "fareKey": "BOMCNX20250531010000THB_23:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "3801.78",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "13810.00",
+              "discount": "0.00",
+              "seatsAvailable": "30",
+              "fareKey": "BOMCNX20250531010000THB_24:YRNMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "13810.00",
+                  "fareAmountIncludingTax": "16046.24",
+                  "fareBasisCode": "YRNMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD4003/13620250531"
+        },
+        {
+          "departureDate": "2025-05-31 02:30:00",
+          "arrivalDate": "2025-05-31 21:40:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 02:30:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-05-31 08:35:00",
+              "duration": "4h35m",
+              "flightNumber": "DD4003",
+              "aircraftDescription": "RADIXX TRAINING ",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            },
+            {
+              "departureDate": "2025-05-31 20:30:00",
+              "origin": "DMK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-05-31 21:40:00",
+              "duration": "1h10m",
+              "flightNumber": "DD140",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "30",
+              "fareKey": "BOMCNX20250531010000THB_26:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "3801.78",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "13810.00",
+              "discount": "0.00",
+              "seatsAvailable": "30",
+              "fareKey": "BOMCNX20250531010000THB_27:YRNMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "13810.00",
+                  "fareAmountIncludingTax": "16046.24",
+                  "fareBasisCode": "YRNMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "370.62",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD4003/14020250531"
+        },
+        {
+          "departureDate": "2025-05-31 23:59:00",
+          "arrivalDate": "2025-06-01 10:40:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 23:59:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-06-01 06:30:00",
+              "duration": "5h1m",
+              "flightNumber": "DD4015",
+              "aircraftDescription": "RADIXX Training 2025",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            },
+            {
+              "departureDate": "2025-06-01 09:30:00",
+              "origin": "DMK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-06-01 10:40:00",
+              "duration": "1h10m",
+              "flightNumber": "DD126",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "9",
+              "fareKey": "BOMCNX20250531010000THB_28:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "3801.78",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD4015/12620250531"
+        },
+        {
+          "departureDate": "2025-05-31 23:59:00",
+          "arrivalDate": "2025-06-01 15:05:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 23:59:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-06-01 06:30:00",
+              "duration": "5h1m",
+              "flightNumber": "DD4015",
+              "aircraftDescription": "RADIXX Training 2025",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            },
+            {
+              "departureDate": "2025-06-01 13:45:00",
+              "origin": "DMK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-06-01 15:05:00",
+              "duration": "1h20m",
+              "flightNumber": "DD134",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "9",
+              "fareKey": "BOMCNX20250531010000THB_29:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "3801.78",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD4015/13420250531"
+        },
+        {
+          "departureDate": "2025-05-31 23:59:00",
+          "arrivalDate": "2025-06-01 18:15:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-05-31 23:59:00",
+              "origin": "BOM",
+              "destination": "DMK",
+              "international": true,
+              "arrivalDate": "2025-06-01 06:30:00",
+              "duration": "5h1m",
+              "flightNumber": "DD4015",
+              "aircraftDescription": "RADIXX Training 2025",
+              "originName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT",
+              "destinationName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT"
+            },
+            {
+              "departureDate": "2025-06-01 17:10:00",
+              "origin": "DMK",
+              "destination": "CNX",
+              "international": false,
+              "arrivalDate": "2025-06-01 18:15:00",
+              "duration": "1h5m",
+              "flightNumber": "DD136",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHIANG MAI INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NF",
+              "productName": "NOK LITE",
+              "currency": "THB",
+              "fareAmount": "2148.60",
+              "discount": "0.00",
+              "seatsAvailable": "9",
+              "fareKey": "BOMCNX20250531010000THB_30:MRALIT00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2148.60",
+                  "fareAmountIncludingTax": "3801.78",
+                  "fareBasisCode": "MRALIT00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "CGST",
+                      "taxName": "Central GST"
+                    },
+                    {
+                      "amount": "79.09",
+                      "taxCode": "SGST",
+                      "taxName": "State GST"
+                    },
+                    {
+                      "amount": "300.00",
+                      "taxCode": "FCF",
+                      "taxName": "FLIGHT CONNECTING FEE"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "BOMCNX20250531010000THB_DD4015/13620250531"
+        }
+      ]
+    }
+  ]
+}

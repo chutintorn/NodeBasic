@@ -1,0 +1,21 @@
+{
+  "url": "https://uat-ota.nokair.com/v1/available-flight-fare",
+  "headers": {
+    "X-Correlation-Id": "6c7cdbb0-4b73-4e29-867c-f5a5274a32c2",
+    "client_id": "887eb5c3d01e4cf192404b731ee2eb27"
+  },
+  "body": {
+    "agencyCode": "",
+    "currency": "THB",
+    "adult": 1,
+    "child": 0,
+    "infant": 0,
+    "journeys": [
+      {
+        "origin": "DMK",
+        "destination": "KBV",
+        "departureDate": "2025-06-01"
+      }
+    ]
+  }
+}

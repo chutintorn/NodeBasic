@@ -1,35 +1,65 @@
 // viewres.js
-// -------------------------------------------------
-// Helper 2 อย่าง:
-//   (1) fullLog()  : pretty-print object ทุกชั้นลงคอนโซล
-//   (2) saveJson() : เซฟออบเจ็กต์เป็นไฟล์ .json ในโฟลเดอร์ apiResponses
-// -------------------------------------------------
 const util = require('util');
 const fs   = require('fs');
 const path = require('path');
 
-// ── ถ้าโฟลเดอร์ apiResponses ยังไม่มี ให้สร้าง ──
-const OUTPUT_DIR = path.join(__dirname, 'apiResponses');
-if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR);
+const BASE_DIR     = path.join(__dirname, 'apiLogs');
+const CONSOLE_DIR  = path.join(BASE_DIR, 'console');
+const FORWARD_DIR  = path.join(BASE_DIR, 'forward');
+const RESPONSE_DIR = path.join(BASE_DIR, 'responses');
+const INOUTRES_DIR = path.join(BASE_DIR, 'inoutres');
 
-// (1) pretty-print
+[CONSOLE_DIR, FORWARD_DIR, RESPONSE_DIR, INOUTRES_DIR].forEach(dir => {
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+});
+
 function fullLog(label, obj) {
-  console.log(
-    `\n===== ${label} =====`,
-    util.inspect(obj, {
-      depth:           null,   // โชว์ทุกชั้น
-      colors:          true,   // มีสีถ้าเทอร์มินัลรองรับ
-      maxArrayLength:  null    // โชว์อาร์เรย์ครบ
-    })
-  );
+  const ts = new Date().toISOString();
+  const pretty = util.inspect(obj, { depth: null, colors: true, maxArrayLength: null });
+  const block = `\n🟦 [${ts}] ===== ${label.toUpperCase()} =====\n${pretty}\n`;
+  console.log(block);
+  appendToFile(path.join(CONSOLE_DIR, 'debug.log'), block);
 }
 
-// (2) saveJson
 function saveJson(obj, basename = 'response') {
-  const ts   = new Date().toISOString().replace(/[:.]/g, '-'); // 2025-05-17T11-24-30-123Z
-  const file = path.join(OUTPUT_DIR, `${ts}_${basename}.json`);
+  const ts = new Date().toISOString().replace(/[:.]/g, '-');
+  const file = path.join(RESPONSE_DIR, `${ts}_${basename}.json`);
   fs.writeFileSync(file, JSON.stringify(obj, null, 2));
-  return file; // ส่งกลับ path เผื่ออยาก log ต่อ
+  return file;
 }
 
-module.exports = { fullLog, saveJson };
+function saveForwardJson(obj, basename = 'forward') {
+  const ts = new Date().toISOString().replace(/[:.]/g, '-');
+  const file = path.join(FORWARD_DIR, `${ts}_${basename}.json`);
+  fs.writeFileSync(file, JSON.stringify(obj, null, 2));
+  return file;
+}
+
+function saveInOutRes({ corrId, incoming, outbound, response }) {
+  const ts = new Date().toISOString();
+  const content = [
+    `##########────────────────────────────────────────────────────────`,
+    `🟢 [${ts}] ===== INCOMING PAYLOAD =====`,
+    JSON.stringify(incoming, null, 2),
+    `\n🔵 [${ts}] ===== OUTBOUND TO NOK =====`,
+    JSON.stringify(outbound, null, 2),
+    `\n🟣 [${ts}] ===== NOK API RESPONSE =====`,
+    JSON.stringify(response, null, 2),
+    `**********────────────────────────────────────────────────────────`
+  ].join('\n');
+
+  const file = path.join(INOUTRES_DIR, `inoutres_${corrId}.log`);
+  fs.writeFileSync(file, content);
+  return file;
+}
+
+function appendToFile(filePath, text) {
+  fs.appendFileSync(filePath, text + '\n');
+}
+
+module.exports = {
+  fullLog,
+  saveJson,
+  saveForwardJson,
+  saveInOutRes
+};

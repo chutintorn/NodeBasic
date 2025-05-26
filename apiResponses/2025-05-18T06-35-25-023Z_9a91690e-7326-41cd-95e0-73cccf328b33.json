@@ -1,0 +1,216 @@
+{
+  "code": 200,
+  "responseStatus": "Success",
+  "correlationId": "9a91690e-7326-41cd-95e0-73cccf328b33",
+  "securityToken": "53929f0fra8fe4e4u394if6aa1db4258c8751dd2915d",
+  "timestamp": "2025-05-18 13:35:26",
+  "data": [
+    {
+      "origin": "DMK",
+      "destination": "BOM",
+      "departureDate": "2025-06-22",
+      "journey": [
+        {
+          "departureDate": "2025-06-22 22:05:00",
+          "arrivalDate": "2025-06-23 01:05:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-06-22 22:05:00",
+              "origin": "DMK",
+              "destination": "BOM",
+              "international": true,
+              "arrivalDate": "2025-06-23 01:05:00",
+              "duration": "4h30m",
+              "flightNumber": "DD938",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "3390.00",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKBOM20250622010000THB_12:URNXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "3390.00",
+                  "fareAmountIncludingTax": "4585.00",
+                  "fareBasisCode": "URNXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "2942.99",
+              "discount": "0.00",
+              "seatsAvailable": "140",
+              "fareKey": "DMKBOM20250622010000THB_17:BRAMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2942.99",
+                  "fareAmountIncludingTax": "4137.99",
+                  "fareBasisCode": "BRAMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "DMKBOM20250622010000THB_DD93820250622"
+        },
+        {
+          "departureDate": "2025-06-22 23:55:00",
+          "arrivalDate": "2025-06-23 02:55:00",
+          "international": true,
+          "travelInfos": [
+            {
+              "departureDate": "2025-06-22 23:55:00",
+              "origin": "DMK",
+              "destination": "BOM",
+              "international": true,
+              "arrivalDate": "2025-06-23 02:55:00",
+              "duration": "4h30m",
+              "flightNumber": "DD936",
+              "aircraftDescription": "B737-800 (73810)",
+              "originName": "BANGKOK DON MUEANG INTERNATIONAL AIRPORT",
+              "destinationName": "CHHATRAPATI SHIVAJI MAHARAJ INTERNATIONAL AIRPORT"
+            }
+          ],
+          "fares": [
+            {
+              "productCode": "NB",
+              "productName": "NOK XTRA",
+              "currency": "THB",
+              "fareAmount": "3390.00",
+              "discount": "0.00",
+              "seatsAvailable": "15",
+              "fareKey": "DMKBOM20250622010000THB_37:URNXTR00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "3390.00",
+                  "fareAmountIncludingTax": "4585.00",
+                  "fareBasisCode": "URNXTR00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "productCode": "NE",
+              "productName": "NOK MAX",
+              "currency": "THB",
+              "fareAmount": "2942.99",
+              "discount": "0.00",
+              "seatsAvailable": "140",
+              "fareKey": "DMKBOM20250622010000THB_42:BRAMAX00",
+              "paxFareTaxBreakdown": [
+                {
+                  "paxTypeCode": "Adult",
+                  "fareAmount": "2942.99",
+                  "fareAmountIncludingTax": "4137.99",
+                  "fareBasisCode": "BRAMAX00",
+                  "taxesAndFees": [
+                    {
+                      "amount": "35.00",
+                      "taxCode": "APS",
+                      "taxName": "Thailand Advance Passenger Processing User Charge"
+                    },
+                    {
+                      "amount": "15.00",
+                      "taxCode": "IAD",
+                      "taxName": "International Arrival and Departure Fee"
+                    },
+                    {
+                      "amount": "130.00",
+                      "taxCode": "AT",
+                      "taxName": "Airport Tax 130 THB for INTER"
+                    },
+                    {
+                      "amount": "1015.00",
+                      "taxCode": "FU",
+                      "taxName": "Fuel Surcharge for India 1015 THB"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "journeyKey": "DMKBOM20250622010000THB_DD93620250622"
+        }
+      ]
+    }
+  ]
+}

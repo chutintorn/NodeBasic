@@ -1,0 +1,21 @@
+{
+  "url": "https://uat-ota.nokair.com/v1/available-flight-fare",
+  "headers": {
+    "X-Correlation-Id": "ec36b888-aec5-4646-9f13-51fa452f7396",
+    "client_id": "887eb5c3d01e4cf192404b731ee2eb27"
+  },
+  "body": {
+    "agencyCode": "",
+    "currency": "THB",
+    "adult": 1,
+    "child": 0,
+    "infant": 0,
+    "journeys": [
+      {
+        "origin": "DMK",
+        "destination": "CNX",
+        "departureDate": "2025-06-01"
+      }
+    ]
+  }
+}

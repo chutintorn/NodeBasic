@@ -1,0 +1,21 @@
+{
+  "url": "https://uat-ota.nokair.com/v1/available-flight-fare",
+  "headers": {
+    "X-Correlation-Id": "f020e63f-b786-401c-8f33-129a226cd2eb",
+    "client_id": "887eb5c3d01e4cf192404b731ee2eb27"
+  },
+  "body": {
+    "agencyCode": "",
+    "currency": "THB",
+    "adult": 1,
+    "child": 0,
+    "infant": 0,
+    "journeys": [
+      {
+        "origin": "DMK",
+        "destination": "HKT",
+        "departureDate": "2025-06-01"
+      }
+    ]
+  }
+}
