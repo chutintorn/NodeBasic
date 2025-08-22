@@ -24,6 +24,12 @@ let config = {
   data : data
 };
 
+// console.log('-------------------------------------------')
+// console.log(config)
+
+// console.log('********************************************')
+
+
 axios.request(config)
 .then((response) => {
   console.log(JSON.stringify(response.data));

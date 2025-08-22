@@ -1,6 +1,5 @@
-// viewres.js
 const util = require('util');
-const fs   = require('fs');
+const fs = require('fs');
 const path = require('path');
 
 const BASE_DIR     = path.join(__dirname, 'apiLogs');
